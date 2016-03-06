@@ -1,0 +1,242 @@
+@font-face {
+    font-family: Tahoma;
+    src: url(../fonts/Tahoma.ttf);
+}
+.clearFix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrapper {
+    background: url(../img/background.png) repeat-x;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*-----------------------HEADER-----------------------*/
+
+.header-wrapper {
+    max-width: 940px;
+    width: 100%;
+    background: white;
+    margin: 0 auto;
+    padding: 8px 30px 0;
+}
+
+.logo-wrapper {
+    position: relative;
+    float: left;
+}
+
+.logo-title {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 72px;
+    font-family: Tahoma, sans-serif;
+    color: #128aa7;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.contacts {
+    display: block;
+    float: right;
+    font-family: Tahoma, sans-serif;
+    color: #128aa7;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 7px;
+    margin-bottom: 20px;
+}
+
+.contacts p {
+    margin-bottom: 9px;
+}
+
+.countries {
+    float: right;
+    clear: right;
+}
+
+.countries li {
+    float: left;
+
+}
+
+.countries  a {
+    display: block;
+    font-family: Tahoma, sans-serif;
+    color: #128aa7;
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+}
+.countries  a img {
+    padding: 0 7px 0;
+}
+.countries  a:hover {
+    opacity: 0.7;
+}
+.photo {
+    margin: 0 auto;
+    width: 1000px;
+    line-height: 0;
+}
+/*--------------------Header Menu-------------------------*/
+.headerMenu {
+    background: rgb(48, 48, 48);
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.headerMenu ul {
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -1px;
+}
+
+.headerMenu li {
+    background: inherit;
+    display: inline-block;
+    position: relative;
+}
+
+.headerMenu li a {
+    display: block;
+    font-family: Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding: 9px 34px;
+    line-height: normal;
+    letter-spacing: normal;
+
+}
+
+.headerMenu li:first-child a {
+    padding-left: 65px;
+}
+
+.headerMenu li:last-child a {
+    padding-right: 65px;
+}
+
+.headerMenu li a:hover {
+    background: #1c1b17;
+
+}
+
+.triangle {
+    position: relative;
+}
+
+.triangle::after {
+    content: '';
+    position: absolute;
+    right: 17px;
+    top: 17px;
+    border: 5px solid transparent;
+    border-top: 5px solid white;
+}
+/*------------------Header Submenu-------------------*/
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    border: 1px solid rgb(48, 48, 48);
+}
+
+ul.travels {
+    width: 150px;
+    top: 34px;
+}
+
+ul.services {
+    width: 110px;
+    top: 34px;
+}
+
+ul.partners {
+    width: 137px;
+    top: 34px;
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a:first-child {
+    padding: 9px 0 9px 34px;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 9px 0 0 34px;
+    background-color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+.headerMenu ul > li:hover > ul.submenu {
+    display: block;
+}
+
+/*-----------------------CONTENT---------------------------*/
+
+.content {
+    background: white;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 100%;
+    font-family: Tahoma, sans-serif;
+    color: #424c43;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.content h2 {
+    font-size: 18px;
+    text-align: center;
+    padding: 8px 0 0;
+}
+
+.left-column {
+    padding: 0 20px 10000px 15px;
+    background: lightgray;
+    float: left;
+    margin-bottom: -9987px;
+
+}
+
+.right-column {
+    padding: 0 20px 10000px 15px;
+    background: lightgray;
+    float: right;
+    margin-bottom: -9987px;
+}
+
+/*--------------------------FOOTER----------------------------*/
+
+.footer {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 9px 0;
+}
