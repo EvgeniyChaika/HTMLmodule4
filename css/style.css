@@ -188,12 +188,12 @@ ul.submenu > li {
 }
 
 ul.submenu > li > a:first-child {
-    padding: 9px 0 9px 34px;
+    padding: 9px 0 9px 32px;
 }
 
 ul.submenu > li > a {
     display: block;
-    padding: 9px 0 0 34px;
+    padding: 9px 0 9px 32px;
     background-color: rgb(48, 48, 48);
     text-decoration: none;
 }
@@ -205,7 +205,9 @@ ul.submenu > li > a:hover {
 .header-menu ul > li:hover > ul.submenu {
     display: block;
 }
-
+ul.submenu > li > a:last-child:hover {
+    padding: 9px 0 9px 32px;
+}
 /*-----------------------CONTENT---------------------------*/
 
 .content {
