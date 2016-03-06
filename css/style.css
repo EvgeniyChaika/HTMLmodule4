@@ -11,11 +11,9 @@ body {
     clear: both;
 }
 .wrapper {
-
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
-    box-shadow: 0 0 3px 3px  grey;
 }
 .page-wrapper {
     max-width: 1000px;
@@ -100,28 +98,28 @@ body {
     line-height: 0;
 }
 /*--------------------Header Menu-------------------------*/
-.headerMenu {
+.header-menu {
     background: rgb(48, 48, 48);
     margin: 0 auto;
     max-width: 1000px;
     width: 100%;
 }
 
-.headerMenu ul {
+.header-menu ul {
     font-size: 0;
     line-height: 0;
     letter-spacing: -1px;
 
 }
 
-.headerMenu li {
+.header-menu li {
     background: inherit;
     display: inline-block;
     position: relative;
 
 }
 
-.headerMenu li a {
+.header-menu li a {
     display: block;
     font-family: Tahoma, sans-serif;
     color: rgba(255, 255, 255, 0.8);
@@ -133,19 +131,21 @@ body {
     letter-spacing: normal;
 }
 
-.headerMenu li:first-child a {
+.header-menu li:first-child a {
     padding-left: 65px;
 }
 
-.headerMenu li:last-child a {
+.header-menu li:last-child a {
     padding-right: 65px;
 }
 
-.headerMenu li a:hover {
-    background: #1c1b17;
-
+.header-menu li:last-child a:hover {
+    padding-right: 69px;
+    -webkit-padding-end: 77px;
 }
-
+.header-menu li a:hover {
+    background: #1c1b17;
+}
 .triangle {
     position: relative;
 }
@@ -202,7 +202,7 @@ ul.submenu > li > a:hover {
     text-decoration: underline;
 }
 
-.headerMenu ul > li:hover > ul.submenu {
+.header-menu ul > li:hover > ul.submenu {
     display: block;
 }
 
